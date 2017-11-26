@@ -1,0 +1,50 @@
+/*
+ Final Project
+   Reiki By Jake
+   Author: Jacob Fletcher
+   Date: 11/22/2015 
+
+   Filename: gstyles.css
+
+   This file contains styles used in the services.htm Web page
+
+*/
+
+
+
+#slidebox              {width: 550px; float: left; margin-right: 10px; margin-left: 40px; margin-top: 10px;
+                        border-right: 4px solid rgb(104, 222, 169);
+                        border-bottom: 4px solid rgb(104, 222, 169)}
+
+#slidebox p            {clear: left; text-align: center; font-size: 10px; margin: 10px}
+#slidebox p a          {text-decoration: none}
+#slidebox p a:hover    {text-decoration: underline}
+
+#slides                {list-style-type: none; display: block; margin: 0px 10px 10px 0px}
+#slides li             {display: block; float: left; text-align: center}
+#slides li a           {display: block; width: 100%; text-decoration: none}
+#slides li a img       {border: 1px solid white}
+
+#sidebar               {width: 220px; float: left; font-size: 12px}
+#sidebar label         {float: left; margin-right: 10px}
+#sidebar input         {float: left; width: 150px; border: 1px inset rgb(152, 152,152);
+                        font-size: 10px; background-color: rgb(255, 240, 197)}
+#sidebar img           {float: left; margin-left: 5px}
+
+#sidebar h1            {clear: left; font-size: 14px; letter-spacing: 3px; 
+                        padding: 15px 0px}
+#sidebar p             {font-size: 10px; padding: 10px 0px; margin-bottom: 15px;
+                        text-align: justify;
+                        border-top: 10px solid rgb(230, 200, 167);
+                        border-bottom: 10px solid rgb(230, 200, 167)}
+#sidebar ul            {margin-left: 15px; list-style-type: square}
+#sidebar ul li         {line-height: 2em}
+#sidebar ul li a       {text-decoration: none}
+#sidebar ul li a:hover {color: blue; text-decoration: underline}
+
+#sub                   {margin-top: 50px}
+#sub a                 {text-decoration: none; letter-spacing: 3px}
+#sub a:hover           {background-color: rgb(192, 192, 192)}
+#sub img               {border-width: 0px; margin-right: 10px}
+
+

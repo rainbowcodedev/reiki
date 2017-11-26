@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+ 
+   Final Project
+   Reiki By Jake
+   Author: Jacob Fletcher
+   Date: 11/22/2015   
+
+   Filename:         order.htm
+   Supporting files: reiki.js, styles.css. logo.jpg
+
+-->
+   <title>Reiki By Jake</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="reiki.js"></script>
+<script type="text/javascript" src="order.js"></script>
+
+</head>
+
+<body>
+<div id="page">
+<div id="dateBox">
+		<script type="text/javascript">
+			document.write("Today is <br />");
+			document.write(showDate());
+		</script>
+</div>
+   <div id="head">
+      <img src="logo.jpg" alt="Reiki by Jake" />
+      <ul class="tabMenu">
+         <li class="tab"><a href="reiki.htm">Home</a>
+            <ul>
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="whatisreiki.htm">What is Reiki?</a>
+             <ul>
+               <li><a href="chakras.htm">Chakras</a></li>
+            </ul>
+         </li>
+         <li class="tab" style="background-color: rgb(104, 222, 169)"><a href="services.htm">Services</a>
+            <ul style="z-index: 1">
+               <li><a href="order.htm">Order</a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="contact.htm">Contact</a>
+            <ul>
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="links.htm">Links</a>
+            <ul>
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+
+   <div id="leftCol">
+      <h2></h2>
+      <ul class="">
+         <li><a href="#"></a></li>
+         <li class="newGroup"><a href="reiki.htm">Home Page</a></li>
+         <li><a href="#"></a></li>
+      </ul>
+ <br>
+	  <hr align="center" width="10%">
+<br>
+<div id="footer" style="width:100%; text-align:center; float:left;">
+
+<script type="text/javascript">
+var d = new Date()
+document.write("Copyright &#169 ");
+document.write(d.getFullYear());
+document.write(" Jacob Fletcher");
+</script>
+</div>
+   </div>
+
+   <div id="main">
+      <h1>Reiki By Jake</h1>
+      
+	   <form id="form1" method="post" action="form2.htm">
+  
+      <h1>Order Form</h1>
+      <p id="datep">
+         <input class="text" id="date" name="date" size="11" value="mm-dd-yyyy" readonly="readonly" />
+      </p>
+
+     <fieldset>
+        <legend>Select a Service</legend>
+
+        <table>
+           <tr>
+              <td class="labelcell">Services and Products</td>
+              <td class="inputcell">
+              <select name="prod" id="prod">
+                 <option value="0">Available Services</option>
+                 <option value="12.50">15 Minute Session ($12.50)</option>
+                 <option value="25.00">30 Minute Session ($25.00)</option>
+                 <option value="37.50">45 Minute Session ($37.50)</option>
+                 <option value="50.00">1 Hour Session ($50.00)</option>
+                 <option value="50.00">Reiki For Pets (1 Hour Session - $50.00)</option>
+				 <option value="50.00">Reiki For Babies (1 Hour Session - $50.00)</option>
+                 <option value="50.00">Reiki For Plants (1 Hour Session - $50.00)</option>
+                 <option value="150.00">*Special* 4 One Hour Reiki Sessions For $150.00)</option>
+				 <option value="10.00">Reiki Charged Quartz Crystal (item) ($10.00)</option>
+				 <option value="10.00">Reiki Charged Candle (item) ($10.00)</option>
+				 <option value="15.00">Reiki Charged Worry Stone (item) ($15.00)</option>
+              </select>
+     
+              <select name="qty" id="qty">
+                 <option value="0">Quantity</option>
+                 <option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                 <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+                 <option value="7">7</option><option value="8">8</option><option value="9">9</option>
+                 <option value="10">10</option>
+              </select>
+              </td>
+              <td class="outcell">
+                 <input class="num" name="price" id="price" size="7" value="0.00" readonly="readonly" />
+              </td>
+           </tr>
+
+           <tr>
+              <td class="labelcell">Shipping</td>
+              <td>
+              <p><input type="radio" name="shipType" id="ship1" value="4.95" />
+                 <label for="ship1">Standard (4-6 business days): $4.95</label>
+              </p>
+              <p><input type="radio" name="shipType" id="ship2" value="8.95" />
+                 <label for="ship2">Express (2 days): $8.95</label>
+              </p>
+              <p><input type="radio" name="shipType" id="ship3" value="12.95" />
+                 <label for="ship3">Next Day (1 day): $12.95</label>
+              </p>
+			  <p><input type="radio" name="shipType" id="ship4" value="1.00" />
+                 <label for="ship4">None (pick up in person): $1.00</label>
+              </p>
+              </td>
+
+              <td class="outcell">
+                 <input class="num" name="ship" id="ship" size="7" value="0.00" readonly="readonly" />
+              </td>
+           </tr>
+
+           <tr>
+              <td colspan="2" class="labelcell2">Subtotal</td>
+              <td class="outcell">
+                 <input class="num" name="sub" size="7" value="0.00" readonly="readonly" />
+              </td>
+           </tr>
+
+           <tr>
+              <td colspan="2" class="labelcell2">Tax (5%)</td>
+              <td class="outcell">
+                 <input class="num" name="tax" id="tax" size="7" value="0.00" readonly="readonly" />
+              </td>
+           </tr>
+
+           <tr>
+              <td colspan="2" class="labelcell2">TOTAL</td>
+              <td class="outcell">
+                 <input class="num" name="tot" id="tot" size="7" value="0.00" readonly="readonly" />
+              </td>
+           </tr>
+        </table>
+
+     </fieldset>
+
+     <p id="formbuttons">
+        <input type="reset"  name="cancelb" id="cancelb" value="Cancel" />
+        <input type="submit" name="nextb" id="nextb" value="Next" />
+    </p>
+
+   </div>
+
+   </form>
+	  
+   </div>
+
+</div>
+
+</body>
+</html>

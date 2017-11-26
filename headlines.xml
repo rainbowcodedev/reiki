@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   
+   Final Project
+   Reiki By Jake
+   Author: Jacob Fletcher
+   Date: 11/22/2015   
+   
+   Sample RSS Headlines Feed
+
+
+   Filename: headlines.xml
+-->
+
+<rss version="2.0">
+
+   <channel>
+
+      <title>Current Headlines From Reiki.org</title>
+      <link>http://www.reiki.org/</link>
+      <description>Reiki News Feed</description>
+
+      <item>
+         <title>My Reiki Story</title>
+         <link>http://www.reiki.org/reikinews/MyReikiStory.htm</link>
+         <description>It’s been 24 years since I first learned of Reiki and began experiencing
+		 it’s miraculous power.  Since that time many changes have taken place in my life that 
+		 were brought about by my association with this wonderful energy.
+         </description>
+      </item>
+
+      <item>
+         <title>Creating Prosperity with Reiki</title>
+         <link>http://www.reiki.org/reikinews/Prosperity.htm</link>
+         <description>"Prosperity and abundance are my Divine birthright." How long has it been
+		 since you have made that statement? Has it been a month, a year, a decade…or never? 
+		 Maybe intellectually you know that you live in an abundant universe, but do you FEEL 
+		 it to be true?
+         </description>
+      </item>
+
+      <item>
+         <title>Reiki Dominoes … the Ripple Effect of Healing</title>
+         <link>http://www.reiki.org/reikinews/Reiki%20Dominos.htm</link>
+         <description>When I was a child, I was fascinated by dominoes, those little black 
+		 rectangular pieces of plastic with the dots on them. I will admit I was never really
+		 enthused by the actual game, but I loved to see them lined up, in curving, waving, 
+		 undulating rows.
+         </description>
+      </item>
+
+      <item>
+         <title>Healing for the Highest Good</title>
+         <link>http://www.reiki.org/reikinews/HighestGood.htm</link>
+         <description>It was just about 17 months ago when I first met Chuck. I learned that
+		 he had recently received a diagnosis of terminal cancer with about 6 months to live.
+		 When I approached Chuck to volunteer to give him Reiki treatments I saw a vital man
+		 with sparkling eyes and a wonderful smile. 
+         </description>
+      </item>
+
+      <item>
+         <title>What is Reiki, Who can Learn it?</title>
+         <link>http://www.reiki.org/reikinews/WhatWhoReiki.html</link>
+         <description>Reiki is a Japanese technique for stress reduction and relaxation that
+		 also promotes healing. It is administered by "laying on hands" and is based on the idea
+		 that an unseen "life force energy" flows through us and is what causes us to be alive. 
+         </description>
+      </item>
+
+  </channel>
+
+</rss>

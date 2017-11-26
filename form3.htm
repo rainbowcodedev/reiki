@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+ 
+   Final Project
+   Reiki By Jake
+   Author: Jacob Fletcher
+   Date: 11/22/2015   
+
+   Filename:         form3.htm
+   Supporting files: reiki.js, styles.css. logo.jpg
+
+-->
+   <title>Reiki By Jake</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="reiki.js"></script>
+<script type="text/javascript" src="payment.js"></script>
+
+</head>
+
+<body>
+<div id="page">
+<div id="dateBox">
+		<script type="text/javascript">
+			document.write("Today is <br />");
+			document.write(showDate());
+		</script>
+</div>
+   <div id="head">
+      <img src="logo.jpg" alt="Reiki by Jake" />
+      <ul class="tabMenu">
+         <li class="tab"><a href="reiki.htm">Home</a>
+            <ul>
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="whatisreiki.htm">What is Reiki?</a>
+             <ul>
+               <li><a href="chakras.htm">Chakras</a></li>
+            </ul>
+         </li>
+         <li class="tab" style="background-color: rgb(104, 222, 169)"><a href="services.htm">Services</a>
+            <ul style="z-index: 1">
+               <li><a href="order.htm">Order</a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="contact.htm">Contact</a>
+            <ul>
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="links.htm">Links</a>
+            <ul>
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+
+   <div id="leftCol">
+      <h2></h2>
+      <ul class="">
+         <li><a href="#"></a></li>
+         <li class="newGroup"><a href="reiki.htm">Home Page</a></li>
+         <li><a href="#"></a></li>
+      </ul>
+ <br>
+	  <hr align="center" width="10%">
+<br>
+<div id="footer" style="width:100%; text-align:center; float:left;">
+
+<script type="text/javascript">
+var d = new Date()
+document.write("Copyright &#169 ");
+document.write(d.getFullYear());
+document.write(" Jacob Fletcher");
+</script>
+</div>
+   </div>
+
+   <div id="main">
+      <h1>Reiki By Jake</h1>
+      
+	<form id="form3" method="post" action="done2.htm">
+<h1>Payment Form</h1>
+
+      <fieldset>
+         <legend>Enter your Credit Card Information</legend>
+
+         <table>
+            <tr>
+               <td class="labelcell">Card<span style="color: red">*</span></td>
+               <td class="inputcell2">
+                  <input type="radio" name="ccard" id="amex" />
+                  <label for="amex">American Express</label><br />
+                  <input type="radio" name="ccard" id="diners" />
+                  <label for="diners">Diners Club</label><br />
+                  <input type="radio" name="ccard" id="disc" />
+                  <label for="disc">Discover</label><br />
+                  <input type="radio" name="ccard" id="mc" />
+                  <label for="mc">MasterCard</label><br />
+                  <input type="radio" name="ccard" id="visa" />
+                  <label for="visa">Visa</label>
+               </td>
+            </tr>
+            <tr>
+               <td class="labelcell">Name<span style="color: red">*</span></td>
+               <td class="inputcell2">
+                  <input class="text" name="cname" id="cname" size="35" />
+               </td>
+            </tr>
+            <tr>
+               <td class="labelcell">Number<span style="color: red">*</span></td>
+               <td class="inputcell2">
+                  <input class="text" name="cnumber" id="cnumber" size="35" />
+                  <span class="fieldlabel">Expiration<span style="color: red">*</span></span>
+                  <select name="cmonth" id="cmonth">
+                  <option>01</option><option>02</option><option>03</option>
+                  <option>04</option><option>05</option><option>06</option>
+                  <option>07</option><option>08</option><option>09</option>
+                  <option>10</option><option>11</option><option>12</option>
+                  </select>
+                  /
+                  <select name="cyear" id="cyear">
+                  <option>2015</option><option>2016</option><option>2017</option>
+                  <option>2018</option><option>2019</option><option>2020</option>
+                  </select>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="2"><span style="color: red">*</span> Required Field</td>
+            </tr>
+         </table>
+      </fieldset>
+
+      <p id="formbuttons">
+         <input type="button" name="prevb" id="prevb" value="Previous" onclick="history.back()" />
+         <input type="submit" name="nextb" id="nextb" value="Next" />
+      </p>
+   </div>
+
+</form>
+
+
+	</div>
+
+</div>
+
+</body>
+</html>

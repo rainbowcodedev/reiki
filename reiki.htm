@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+ 
+   Final Project
+   Reiki By Jake
+   Author: Jacob Fletcher
+   Date: 11/22/2015   
+
+   Filename:         reiki.htm
+   Supporting files: reiki.js, styles.css. logo.jpg
+
+-->
+   <title>Reiki By Jake</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="reiki.js"></script>
+<script type = "text/javascript" src = "counter.js"></script>
+  <link href="cstyles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+	var popWin=window.open("deal.htm", "popWin", "width=125, height=240, left=10 top=10");  
+	function subscribe() { popWin;
+	} 
+   </script>
+</head>
+
+<body onload="subscribe()">
+<div id="page">
+<div id="dateBox">
+		<script type="text/javascript">
+			document.write("Today is <br />");
+			document.write(showDate());
+		</script>
+</div>
+
+
+   <div id="head">
+        
+      <img src="logo.jpg" alt="Reiki by Jake" />
+      <ul class="tabMenu">
+         <li class="tab" style="background-color: rgb(104, 222, 169)"><a href="reiki.htm">Home</a>
+            <ul style="z-index: 1">
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="whatisreiki.htm">What is Reiki?</a>
+             <ul>
+               <li><a href="chakras.htm">Chakras</a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="services.htm">Services</a>
+            <ul>
+               <li><a href="order.htm">Order</a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="contact.htm">Contact</a>
+            <ul>
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="links.htm">Links</a>
+            <ul>
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+
+   <div id="leftCol">
+      <h2></h2>
+      <ul class="">
+         <li><a href="#"></a></li>
+         <li class="newGroup"><a href="reiki.htm">Home Page</a></li>
+         <li><a href="#"></a></li>
+      </ul>
+ <br>
+	  <hr align="center" width="10%">
+<br>
+<div id="footer" style="width:100%; text-align:center; float:left;">
+
+<script type="text/javascript">
+var d = new Date()
+document.write("Copyright &#169 ");
+document.write(d.getFullYear());
+document.write(" Jacob Fletcher");
+</script>
+</div>
+   </div>
+
+   <div id="main">
+      <h1>Reiki By Jake</h1>
+      <img src="stones.jpg" alt="Reiki stones" />
+      <p>Feeling stressed? Need to relax?</p>
+	  <p>Do you feel like your body and emotions are out of alignment?</p>
+	  <p>Reiki is a Japanese technique for stress reduction that compliments traditional wellness programs.</p>
+      <p>If you are in the Fort Collins area of Northern Colorado, and you are looking to sign up for a Reiki session, please feel free to contact Jake to get started!</p> 
+
+   </div>
+
+   <div id="calendar" style="width:38%; float:right;">
+   <script type="text/javascript">
+	calendar();
+	</script>
+   </div>
+
+</div>
+<div id="bottom" style="width:30%; text-align:center; padding-left:300px; padding-top:400px;"></div>
+</body>
+</html>

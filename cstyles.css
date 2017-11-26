@@ -1,0 +1,22 @@
+/*
+   Final Project
+   Reiki By Jake
+   Author: Jacob Fletcher
+   Date: 11/22/2015   
+
+
+   Filename:         cstyles.css
+   Supporting Files: 
+
+*/
+
+
+
+#pageFooter     {font-size: 10px; margin: 20px 0px}
+
+#pageFooter span {text-align: center; display: block;
+                  background-color: white;
+                  float: left; width: 32.7%;
+                  border: 1px solid rgb(104, 222, 169)}
+
+

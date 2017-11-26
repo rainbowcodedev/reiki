@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+ 
+   Final Project
+   Reiki By Jake
+   Author: Jacob Fletcher
+   Date: 11/22/2015   
+
+   Filename:         chakras.htm
+   Supporting files: reiki.js, styles.css. logo.jpg
+
+-->
+   <title>Reiki By Jake</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="reiki.js"></script>
+
+</head>
+
+<body>
+<div id="page">
+<div id="dateBox">
+		<script type="text/javascript">
+			document.write("Today is <br />");
+			document.write(showDate());
+		</script>
+</div>
+
+   <div id="head">
+      <img src="logo.jpg" alt="Reiki by Jake" />
+      <ul class="tabMenu">
+         <li class="tab"><a href="reiki.htm">Home</a>
+            <ul>
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+         <li class="tab" style="background-color: rgb(104, 222, 169)"><a href="whatisreiki.htm">What is Reiki?</a>
+             <ul style="z-index: 1">
+               <li><a href="chakras.htm">Chakras</a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="services.htm">Services</a>
+            <ul>
+               <li><a href="order.htm">Order</a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="contact.htm">Contact</a>
+            <ul>
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="links.htm">Links</a>
+            <ul>
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+
+   <div id="leftCol">
+      <h2></h2>
+      <ul class="">
+         <li><a href="#"></a></li>
+         <li class="newGroup"><a href="reiki.htm">Home Page</a></li>
+         <li><a href="#"></a></li>
+      </ul>
+ <br>
+	  <hr align="center" width="10%">
+<br>
+<div id="footer" style="width:100%; text-align:center; float:left;">
+
+<script type="text/javascript">
+var d = new Date()
+document.write("Copyright &#169 ");
+document.write(d.getFullYear());
+document.write(" Jacob Fletcher");
+</script>
+</div>
+   </div>
+
+   <div id="main">
+      <h1>Chakras</h1>
+      
+      <p></p>
+    <div id = "doc">
+     <h2>Press down your mouse button on each chakra to see its name.</h2>
+    <p></p>
+    <img src="stones.jpg" alt="Reiki stones" />    
+    </div>
+	<div id="tip" style="width:50%; padding:10px; padding-right:80px;">
+<script type= "text/javascript">
+	// declare a random integer between 1 and 10
+	var tipNum = randInt(1, 7);
+	
+	// display the random tip title 	
+	document.write("<h1>Chakras and the Body<br />");
+	document.write(tipTitle(tipNum));
+	document.write("</h1>");
+	
+	// display the random tip text
+	document.write("<p>");
+	document.write(tipText(tipNum));
+	document.write("</p>");
+</script>
+   </div>
+	
+   </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+ 
+   Final Project
+   Reiki By Jake
+   Author: Jacob Fletcher
+   Date: 11/22/2015   
+
+   Filename:         form2.htm
+   Supporting files: reiki.js, styles.css. logo.jpg
+
+-->
+   <title>Reiki By Jake</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="reiki.js"></script>
+<script type="text/javascript" src="contact2.js"></script>
+
+</head>
+
+<body>
+<div id="page">
+<div id="dateBox">
+		<script type="text/javascript">
+			document.write("Today is <br />");
+			document.write(showDate());
+		</script>
+</div>
+   <div id="head">
+      <img src="logo.jpg" alt="Reiki by Jake" />
+      <ul class="tabMenu">
+         <li class="tab"><a href="reiki.htm">Home</a>
+            <ul>
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="whatisreiki.htm">What is Reiki?</a>
+             <ul>
+               <li><a href="chakras.htm">Chakras</a></li>
+            </ul>
+         </li>
+         <li class="tab" style="background-color: rgb(104, 222, 169)"><a href="services.htm">Services</a>
+            <ul style="z-index: 1">
+               <li><a href="order.htm">Order</a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="contact.htm">Contact</a>
+            <ul>
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+         <li class="tab"><a href="links.htm">Links</a>
+            <ul>
+               <li><a href="#"></a></li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+
+   <div id="leftCol">
+      <h2></h2>
+      <ul class="">
+         <li><a href="#"></a></li>
+         <li class="newGroup"><a href="reiki.htm">Home Page</a></li>
+         <li><a href="#"></a></li>
+      </ul>
+ <br>
+	  <hr align="center" width="10%">
+<br>
+<div id="footer" style="width:100%; text-align:center; float:left;">
+
+<script type="text/javascript">
+var d = new Date()
+document.write("Copyright &#169 ");
+document.write(d.getFullYear());
+document.write(" Jacob Fletcher");
+</script>
+</div>
+   </div>
+
+   <div id="main">
+      <h1>Reiki By Jake</h1>
+      
+	  <form id="form2" method="post" action="form3.htm">
+	  
+	  <h1>Contact Form</h1>
+
+      <fieldset>
+         <legend>Enter your Contact Information</legend>
+ 
+         <table>
+            <tr>
+               <td class="labelcell">First Name<span style="color: red">*</span></td>
+               <td class="inputcell2">
+                  <input class="text" name="fname" id="fname" size="25" />
+               </td>
+            </tr>
+            <tr>
+               <td class="labelcell">Last Name<span style="color: red">*</span></td>
+               <td class="inputcell2">
+                  <input class="text" name="lname" id="lname" size="25" />
+               </td>
+            </tr>
+
+            <tr>
+               <td class="labelcell">Street<span style="color: red">*</span></td>
+               <td class="inputcell2">
+                  <textarea id="street" name="street" cols="" rows=""></textarea>
+               </td>
+            </tr>
+
+            <tr>
+               <td class="labelcell">City<span style="color: red">*</span></td>
+               <td class="inputcell2">
+                  <input class="text" name="city" id="city" size="25" />
+                  <span class="fieldlabel">State<span style="color: red">*</span></span>
+                  <select name="state">
+      <option>AL</option><option>AK</option><option>AZ</option><option>AR</option>
+      <option>CA</option><option>CO</option><option>CT</option><option>DE</option>
+      <option>DC</option><option>FL</option><option>GA</option><option>HI</option>
+      <option>ID</option><option>IL</option><option>IN</option><option>IA</option>
+      <option>KS</option><option>KY</option><option>LA</option><option>ME</option>
+      <option>MD</option><option>MA</option><option>MI</option><option>MN</option>
+      <option>MS</option><option>MO</option><option>MT</option><option>NE</option>
+      <option>NV</option><option>NH</option><option>NJ</option><option>NM</option>
+      <option>NY</option><option>NC</option><option>ND</option><option>OH</option>
+      <option>OK</option><option>OR</option><option>PA</option><option>RI</option>
+      <option>SC</option><option>SD</option><option>TN</option><option>TX</option>
+      <option>UT</option><option>VT</option><option>VA</option><option>WA</option>
+      <option>WV</option><option>WI</option><option>WY</option>
+                  </select>
+                  <span class="fieldlabel">ZIP</span>
+                  <input class="text" id="zip" name="zip" size="10" />
+               </td>
+            </tr>
+				<tr>
+               <td class="labelcell">Email<span style="color: red">*</span></td>
+               <td class="inputcell2">
+                  <input class="text" name="email" id="email" size="25" />
+               </td>
+            </tr>
+			
+			
+			<tr>
+               <td class="labelcell">Phone<span style="color: red">*</span></td>
+               <td class="inputcell2">
+                  <input class="text" name="phone" id="phone" size="25" />
+               </td>
+            </tr>
+            <tr>
+               <td colspan="2"><span style="color: red">*</span> Required Field</td>
+            </tr>
+         </table>
+      </fieldset>
+
+     <p id="formbuttons">
+        <input type="button" name="prevb" id="prevb" value="Previous" onclick="window.location='form1.htm'" />
+        <input type="submit" name="nextb" id="nextb" value="Next" />
+     </p>
+   </div>
+
+</form>
+	  
+   </div>
+
+</div>
+
+</body>
+</html>

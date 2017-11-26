@@ -1,0 +1,70 @@
+/*
+ 
+   Final Project
+   Reiki By Jake
+   Author: Jacob Fletcher
+   Date: 11/22/2015   
+   Filename: newsstyles.css
+
+   This file contains styles used in the links and news page
+
+*/
+
+
+
+#main                {float: left; width: 580px; padding: 7px;
+                      min-height: 500px;
+                      border-right: 1px solid rgb(81, 105, 165)}
+#main h1             {font-size: 22px;
+                      font-weight: normal;
+                      color: rgb(0, 78, 156);
+                      letter-spacing: 5px;
+                      margin: 5px 0px 0px 5px}
+#main h6             {font-size: 11px;
+                      color: rgb(80, 158, 235);
+                      text-align: right;
+                      font-weight: normal;
+                      margin: 0px 20px 10px 5px}
+#main p              {font-size: 14px;
+                      font-family: Times New Roman, serif;
+                      margin: 10px}
+#main cite           {display: block;
+                      font-size: 12px;
+                      text-align: right;
+                      padding-bottom: 7px;
+                      margin: 0px 20px 10px 0px;
+                      border-bottom: 1px solid rgb(0, 78, 156)}
+
+
+#news                {float: left; width: 180px;
+                      background-color: white;
+                      padding: 0px 15px 0px 10px;
+                      min-height: 450px}
+
+#news h1             {font-size: 16px;
+                      font-weight: bold;
+                      font-family: Times New Roman, serif;
+                      color: rgb(0, 78, 156);
+                      letter-spacing: 3px;
+                      text-align: center;
+                      font-style: italic;
+                      margin: 5px 0px 15px}
+
+#news h2             {font-size: 11px;
+                      font-weight: bold;
+                      font-family: Times New Roman, serif;
+                      margin: 0px}
+
+#news h2 a           {color: rgb(0, 78, 156);
+                      text-decoration: none}
+
+#news h2 a:hover     {color: red}
+
+#news p              {font-size: 11px;
+                      font-family: Times New Roman, serif;
+                      padding-bottom: 7px;
+                      margin: 0px 0px 10px 0px;
+                      border-bottom: 1px solid rgb(0, 78, 156)}
+
+#links  {float: right; width: 180px;
+			background-color: rgb(229,255,249);}
